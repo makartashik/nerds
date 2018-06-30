@@ -10,3 +10,7 @@ body {
   text-transform: uppercase;
   background-color: #ffffff;
 }
+
+a {
+  text-decoration: none;
+}
