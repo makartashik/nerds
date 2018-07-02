@@ -259,3 +259,12 @@ input[type="radio"].visually-hidden {
   border-radius: 3px;
   border: none;
 }
+
+.button:hover, .button:focus {
+  background-color: #e74246;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #d7373b;
+}
