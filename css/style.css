@@ -235,12 +235,14 @@ input[type="radio"].visually-hidden {
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
+  color: #000000;
 }
 
 .main-slider-item p {
   max-width: 430px;
   margin: 0;
   margin-bottom: 38px;
+
 }
 
 .button {
