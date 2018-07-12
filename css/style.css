@@ -242,7 +242,6 @@ input[type="radio"].visually-hidden {
   max-width: 430px;
   margin: 0;
   margin-bottom: 38px;
-
 }
 
 .button {
@@ -269,4 +268,65 @@ input[type="radio"].visually-hidden {
 .button:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #d7373b;
+}
+
+.button-green {
+  background-color: #00ca74;
+}
+
+.button-green:hover, .button-green:focus {
+  background-color: #00bc6c;
+}
+
+.button-green:active {
+  background-color: #00aa62;
+}
+
+.button-yellow {
+  background-color: #efc84a;
+}
+
+.button-yellow:hover, .button-yellow:focus {
+  background-color: #eab534;
+}
+
+.button-yellow:active {
+  background-color: #e5a722;
+}
+
+.product-item-button {
+  width: 160px;
+}
+
+.product-line-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 80px 0;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.product-line-item {
+  width: 300px;
+  margin-right: 100px;
+}
+
+.product-line-item:last-child {
+  margin-right: 60px;
+}
+
+.product-item-title {
+  margin: 19px 0 15px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.product-line-item p {
+  width: 260px;
+  margin: 0;
+  margin-bottom: 32px;
 }
